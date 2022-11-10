@@ -1,0 +1,87 @@
+body {
+    background: url("../../imgs/fundo.jpg");
+    background-size: cover;
+  }
+
+.principal{
+    height: 100vh;
+}
+
+.container {
+    background: #ddd;
+    margin: 5rem auto;
+    padding: 20px 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.titulo {
+    align-items: center;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    border: none;
+    margin-top: 25px;
+    border-radius: 30px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
+}
+
+.button[type="submit"] {
+    background: linear-gradient(to right, #7fff00, #32cd32);
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin: 40px 0;
+    cursor: pointer;
+    transition: 1s;
+    text-align: center;
+}
+
+.button:hover {
+    transition: 1s;
+    background: linear-gradient(to right, #54990f, #10a010);
+}
+
+form {
+    position: relative;
+    background-color: none;
+    margin-top: 40px;
+    transition: .5s;
+    width: 90%;
+}
+.iUser {
+    background: url(../../imgs/loginIlustracao.png) center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 34px;
+    left: 7px;
+}
+
+.iEmail {
+    position: absolute;
+    top: 97px;
+}
+
+.iPassword {
+    position: absolute;
+    top: 157px;
+}
+
+
+
+i {
+    left: 10px;
+}
